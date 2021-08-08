@@ -1,0 +1,23 @@
+{
+    "C_Cpp.intelliSenseEngine": "Disabled",
+    "C_Cpp.errorSquiggles": "Disabled",
+    "C_Cpp.autocomplete": "Disabled",
+    "clangd.checkUpdates": true,
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}",
+        "--completion-style=detailed",
+        "--header-insertion=never",
+        "--suggest-missing-includes",
+        "--background-index"
+    ],
+    "clangd.onConfigChanged": "restart",
+    "bazel.commandLine.commandArgs": [
+        "-c",
+        "dbg"
+    ],
+    "files.exclude": {
+        "**/.cache": true
+    },
+    "python.pythonPath": "/usr/bin/python",
+    "editor.formatOnSave": true
+}

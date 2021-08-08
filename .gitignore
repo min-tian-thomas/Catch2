@@ -31,3 +31,6 @@ benchmark-dir
 bazel-*
 build-fuzzers
 debug-build
+build
+compile_commands.json
+.cache
